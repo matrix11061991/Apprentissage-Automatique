@@ -1,0 +1,2 @@
+# Transfert Learning
+Le transfert de learning est une technique qui consiste à utiliser les connaissances acquises sur un modèle pré-entraîné sur un domaine donné, pour entraîner un nouveau modèle sur un domaine similaire. Cela peut être très utile lorsque l'on a peu de données d'entraînement disponibles pour le nouveau domaine, car le modèle pré-entraîné a déjà appris à extraire des caractéristiques utiles de données.
