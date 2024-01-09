@@ -61,6 +61,49 @@ plt.ylabel("Prix Prédit")
 plt.title("Régression Linéaire - Prédiction des Prix Immobiliers")
 plt.show()
 ```
+## Le code complet:
+```python
+# Importation des bibliothèques nécessaires
+import numpy as np  # NumPy est utilisé pour les opérations numériques
+import matplotlib.pyplot as plt  # Matplotlib est utilisé pour la visualisation
+from sklearn.model_selection import train_test_split  # Fonction pour diviser les données en ensembles d'entraînement et de test
+from sklearn.linear_model import LinearRegression  # Modèle de régression linéaire de scikit-learn
+from sklearn.metrics import mean_squared_error  # Métrique d'erreur pour évaluer les performances du modèle
+
+# Génération de données synthétiques pour l'exemple
+np.random.seed(42)  # Fixer la graine aléatoire pour la reproductibilité
+X = 2 * np.random.rand(100, 1)  # Générer 100 valeurs aléatoires entre 0 et 2
+y = 4 + 3 * X + np.random.randn(100, 1)  # Générer des étiquettes y avec une relation linéaire et du bruit gaussien
+
+# Diviser les données en ensembles d'entraînement et de test
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialiser le modèle de régression linéaire
+model = LinearRegression()
+
+# Entraîner le modèle sur l'ensemble d'entraînement
+model.fit(X_train, y_train)
+
+# Faire des prédictions sur l'ensemble de test
+y_pred = model.predict(X_test)
+
+# Calculer l'erreur quadratique moyenne entre les prédictions et les vraies valeurs
+mse = mean_squared_error(y_test, y_pred)
+
+# Afficher les résultats
+print("Coefficient (pente) du modèle :", model.coef_[0][0])
+print("Terme constant du modèle :", model.intercept_[0])
+print("Erreur quadratique moyenne sur l'ensemble de test :", mse)
+
+# Tracer la ligne de régression sur les données
+plt.scatter(X_test, y_test, color='black', label='Données réelles')
+plt.plot(X_test, y_pred, color='blue', linewidth=3, label='Régression linéaire')
+plt.xlabel('X')
+plt.ylabel('y')
+plt.title('Régression linéaire avec scikit-learn')
+plt.legend()
+plt.show()
+```
 ## Conclusion
 En réalisant ces travaux pratiques, vous aurez acquis une expérience pratique de l'application de la régression linéaire avec Scikit-Learn sur un problème réel de prédiction des prix immobiliers. Cette activité vous fournira des compétences précieuses dans l'utilisation de modèles linéaires pour résoudre des problèmes du monde réel.
 
