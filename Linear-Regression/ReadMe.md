@@ -40,7 +40,9 @@ X_train, X_test, y_train, y_test = train_test_split(housing.data, housing.target
 ```
 **f. Entraînement du Modèle :**
 ```python
+# Initialiser le modèle de régression linéaire
 model = LinearRegression()
+# Entraîner le modèle sur l'ensemble d'entraînement
 model.fit(X_train, y_train)
 ```
 **g. Évaluation du Modèle :**
