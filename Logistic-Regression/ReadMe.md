@@ -20,7 +20,7 @@ Où :
 ```sh
 pip install scikit-learn
 ```
-**mportation des Bibliothèques :**
+**Importation des Bibliothèques :**
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
