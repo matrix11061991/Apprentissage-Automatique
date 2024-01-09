@@ -7,13 +7,14 @@ Comprendre et mettre en œuvre la régression logistique à l'aide de la bibliot
 ## Introduction
 La régression logistique est une technique d'apprentissage supervisé utilisée pour la classification. Contrairement à la régression linéaire qui prédit des valeurs continues, la régression logistique est utilisée pour prédire des probabilités d'appartenance à une classe. Elle est largement utilisée dans les problèmes de classification binaire.
 **I. Qu'est-ce que la Régression Logistique ?**
-La régression logistique modélise la probabilité qu'une instance appartienne à une classe particulière. L'équation de la régression logistique est donnée par la fonction logistique (ou sigmoïde) :
-P(Y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 \cdot X_1 + \beta_2 \cdot X_2 + \ldots + \beta_n \cdot X_n)}}
+La régression logistique modélise la probabilité qu'une instance appartienne à une classe particulière. L'équation de la régression logistique est donnée par la fonction logistique (ou sigmoïde) :  
+$P(Y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 \cdot X_1 + \beta_2 \cdot X_2 + \ldots + \beta_n \cdot X_n)}}$
 Où :
-- P(Y=1) est la probabilité que l'instance appartienne à la classe 1.
-- e est la base du logarithme naturel.
-- \beta_0, \beta_1,..., \beta_n ont les coefficients du modèle.
-- X_1, X_2,..., X_n  sont les caractéristiques de l'instance.
+- $P(Y=1)$ est la probabilité que l'instance appartienne à la classe 1.
+- $e$ est la base du logarithme naturel.
+- $\beta_0, \beta_1,..., \beta_n$ ont les coefficients du modèle.
+- $X_1, X_2,..., X_n$  sont les caractéristiques de l'instance.
+  
 **II. Mise en Pratique avec Scikit-Learn :**  
 **Installation de Scikit-Learn :**
   Assurez-vous d'avoir Scikit-Learn installé. Sinon, installez-le via la commande : 
