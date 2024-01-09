@@ -61,7 +61,7 @@ plt.ylabel("Prix Prédit")
 plt.title("Régression Linéaire - Prédiction des Prix Immobiliers")
 plt.show()
 ```
-## Le code complet:
+## Un exemple de code complet:
 ```python
 # Importation des bibliothèques nécessaires
 import numpy as np  # NumPy est utilisé pour les opérations numériques
