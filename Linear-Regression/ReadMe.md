@@ -1,6 +1,7 @@
 # Fiche d'Activité Pratique : Travaux Pratiques sur la régression linéaire avec scikit-learn
 ## Objectif
 Mettre en œuvre la régression linéaire en utilisant la bibliothèque Scikit-Learn pour résoudre des problèmes réels.
+
 ## Prérequis  
 * Python installé sur la machine
 * Les bibliothèques Scikit-Learn, NumPy et Matplotlib.
@@ -8,7 +9,6 @@ Mettre en œuvre la régression linéaire en utilisant la bibliothèque Scikit-L
 **Étape 1: Introduction**  
 Dans ce TP, nous allons travailler sur un cas d'utilisation pratique : prédire les prix immobiliers en fonction de certaines caractéristiques. 
 Pour cela, nous utiliserons la régression linéaire avec Scikit-Learn.
-
 **Étape 2: Tâches à Réaliser**  
 **a. Importation des Bibliothèques :**
 ```python
