@@ -1,11 +1,11 @@
 # Fiche d'Activité Pratique : K Plus Proches Voisins (KNN) avec Scikit-Learn
 ## Objectif
-Comprendre et mettre en œuvre l'algorithme des K Plus Proches Voisins (KNN) à l'aide de la bibliothèque Scikit-Learn en Python.
+Comprendre et mettre en œuvre l'algorithme des **K Plus Proches Voisins (KNN)** à l'aide de la bibliothèque Scikit-Learn en Python.
 ## Prérequis  
 * Python installé sur la machine
 * Les bibliothèques Scikit-Learn, NumPy et Matplotlib.
 ## Introduction
-L'algorithme des K Plus Proches Voisins (KNN) est une méthode d'apprentissage supervisé utilisée pour la classification et la régression. Il se base sur le principe que des points similaires se trouvent généralement dans des zones proches les unes des autres. KNN attribue une classe à un point de données en fonction des classes majoritaires parmi ses k voisins les plus proches.
+L'algorithme des **K Plus Proches Voisins (KNN)** est une méthode d'apprentissage supervisé utilisée pour la classification et la régression. Il se base sur le principe que des points similaires se trouvent généralement dans des zones proches les unes des autres. KNN attribue une classe à un point de données en fonction des classes majoritaires parmi ses k voisins les plus proches.
 **I. Qu'est-ce que les K Plus Proches Voisins (KNN) ?**
 L'idée fondamentale de KNN est de trouver les k voisins les plus proches d'un point de données donné et de prendre une décision en fonction des classes majoritaires parmi ces voisins. La distance entre les points peut être mesurée de différentes manières, souvent par la distance euclidienne.
 
