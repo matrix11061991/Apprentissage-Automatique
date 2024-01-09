@@ -8,7 +8,7 @@ Mettre en œuvre la régression linéaire en utilisant la bibliothèque Scikit-L
 ## Travail Pratique : Prédiction des Prix Immobiliers
 **Étape 1: Introduction**  
 Dans ce TP, nous allons travailler sur un cas d'utilisation pratique : prédire les prix immobiliers en fonction de certaines caractéristiques. 
-Pour cela, nous utiliserons la régression linéaire avec Scikit-Learn.
+Pour cela, nous utiliserons la régression linéaire avec Scikit-Learn.  
 **Étape 2: Tâches à Réaliser**  
 **a. Importation des Bibliothèques :**
 ```python
