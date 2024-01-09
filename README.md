@@ -1,2 +1,2 @@
-# Data-Science
-Example of using scikit learn and tensorflow for data science
+# Apprentissage Automatique
+Apprentissage automatique avec scikit learn et tensorflow
