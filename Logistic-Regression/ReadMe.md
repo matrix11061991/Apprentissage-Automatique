@@ -1,4 +1,4 @@
-# Fiche d'Activité Pratique : Travaux Pratiques sur la régression linéaire avec scikit-learn
+# Fiche d'Activité Pratique : Régression Logistique avec Scikit-Learn
 ## Objectif
 Comprendre et mettre en œuvre la régression logistique à l'aide de la bibliothèque Scikit-Learn en Python.
 ## Prérequis  
