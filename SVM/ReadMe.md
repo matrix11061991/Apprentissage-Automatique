@@ -74,7 +74,7 @@ print(f"Confusion Matrix:\n{confusion_mat}")
 ```
 ## Conclusion
 Les **Support Vector Machines** sont des outils puissants pour la classification et la régression, en particulier dans des contextes de données complexes. Scikit-Learn fournit une implémentation robuste de SVMs en Python. En pratiquant cette activité, vous avez maintenant les bases pour explorer davantage les concepts de SVM et son application dans le domaine de l'apprentissage automatique.
-## License
+## By
 ```sh
                                                      __  __       _        _          _______             
                                                     |  \/  |     | |      (_)        |__   __|            
