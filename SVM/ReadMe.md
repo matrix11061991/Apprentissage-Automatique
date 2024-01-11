@@ -29,23 +29,46 @@ from sklearn.metrics import accuracy_score, confusion_matrix  # Métriques pour 
 ```
 **Génération de Données :**
 ```python
+# Fixer la graine aléatoire pour assurer la reproductibilité des résultats
 np.random.seed(42)
+
+# Générer un ensemble de données synthétique pour l'exemple
+# make_classification est utilisé pour créer un jeu de données avec des caractéristiques prédéfinies
+# - n_samples : nombre total d'échantillons générés
+# - n_features : nombre de caractéristiques pour chaque échantillon
+# - n_classes : nombre de classes dans le jeu de données
+# - n_clusters_per_class : nombre de clusters par classe, ce qui affecte la dispersion des points de chaque classe
+# - n_redundant : nombre de caractéristiques redondantes générées, ce qui ajoute du bruit au jeu de données
 X, y = datasets.make_classification(n_samples=100, n_features=2, n_classes=2, n_clusters_per_class=1, n_redundant=0)
 ```
 **Entraînement du Modèle :**
 ```python
+# Diviser l'ensemble de données en ensembles d'entraînement et de test
+# train_test_split est utilisé pour créer des sous-ensembles d'échantillons pour l'entraînement et le test
+# - X : ensemble de caractéristiques
+# - y : ensemble d'étiquettes
+# - test_size : proportion de l'ensemble de données à inclure dans l'ensemble de test
+# - random_state : graine aléatoire pour assurer la reproductibilité de la division
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+# Créer un modèle SVM avec un noyau linéaire
 model = SVC(kernel='linear')
+
+# Entraîner le modèle SVM sur l'ensemble d'entraînement
 model.fit(X_train, y_train)
 ```
 **Prédiction et Évaluation :**
 ```python
+# Faire des prédictions sur l'ensemble de test à l'aide du modèle SVM entraîné
 y_pred = model.predict(X_test)
 
+# Calculer la précision du modèle en comparant les prédictions avec les étiquettes réelles
 accuracy = accuracy_score(y_test, y_pred)
+
+# Calculer la matrice de confusion pour évaluer les performances détaillées du modèle
 confusion_mat = confusion_matrix(y_test, y_pred)
 
+# Afficher les résultats
 print(f"Accuracy: {accuracy}")
 print(f"Confusion Matrix:\n{confusion_mat}")
 ```
