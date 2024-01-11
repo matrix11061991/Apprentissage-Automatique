@@ -19,12 +19,13 @@ pip install scikit-learn
 ```
 **Importation des Bibliothèques :**
 ```python
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn import datasets
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score, confusion_matrix
+# Importation des bibliothèques nécessaires
+import numpy as np  # NumPy est utilisé pour le traitement numérique
+import matplotlib.pyplot as plt  # Matplotlib est utilisé pour la visualisation
+from sklearn import datasets  # scikit-learn fournit des jeux de données prêts à l'emploi
+from sklearn.model_selection import train_test_split  # Pour diviser les données en ensembles d'entraînement et de test
+from sklearn.svm import SVC  # SVM (Machine à vecteurs de support) pour la classification
+from sklearn.metrics import accuracy_score, confusion_matrix  # Métriques pour évaluer la performance du modèle
 ```
 **Génération de Données :**
 ```python
