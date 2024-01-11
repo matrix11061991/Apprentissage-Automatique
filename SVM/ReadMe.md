@@ -5,11 +5,11 @@
 * Python installé sur la machine
 * Les bibliothèques Scikit-Learn, NumPy et Matplotlib.
 ## Introduction
-Les Support Vector Machines (SVMs) sont une classe d'algorithmes d'apprentissage supervisé utilisés pour la classification et la régression. L'objectif principal de SVM est de trouver un hyperplan optimal dans un espace de caractéristiques qui sépare le mieux possible les différentes classes.
+Les Support Vector Machines (SVMs) sont une classe d'algorithmes d'apprentissage supervisé utilisés pour la classification et la régression. L'objectif principal de SVM est de trouver un hyperplan optimal dans un espace de caractéristiques qui sépare le mieux possible les différentes classes.  
 **I. Qu'est-ce que les Support Vector Machines (SVMs) ?**
 L'idée centrale des SVMs est de trouver un hyperplan qui maximise la marge entre les classes. La marge est définie comme la distance entre l'hyperplan et les points les plus proches de chaque classe, appelés vecteurs de support. Les SVMs sont particulièrement efficaces dans des espaces de grande dimension et sont capables de gérer des données non linéaires grâce à l'utilisation de noyaux.
 
-En termes simples, pour un problème de classification binaire, l'hyperplan est une frontière de décision qui sépare les classes de manière optimale.
+En termes simples, pour un problème de classification binaire, l'hyperplan est une frontière de décision qui sépare les classes de manière optimale.  
   
 **II. Mise en Pratique avec Scikit-Learn :**  
 **Installation de Scikit-Learn :**
