@@ -109,7 +109,7 @@ plt.show()
 ## Conclusion
 En réalisant ces travaux pratiques, vous aurez acquis une expérience pratique de l'application de la régression linéaire avec Scikit-Learn sur un problème réel de prédiction des prix immobiliers. Cette activité vous fournira des compétences précieuses dans l'utilisation de modèles linéaires pour résoudre des problèmes du monde réel.
 
-## License
+## By
 ```sh
                                                      __  __       _        _          _______             
                                                     |  \/  |     | |      (_)        |__   __|            
