@@ -53,7 +53,7 @@ print(f"Confusion Matrix:\n{confusion_mat}")
 ```
 ## Conclusion
 Les **K Plus Proches Voisins** sont une méthode simple mais efficace pour la classification et la régression. Scikit-Learn offre des outils puissants pour mettre en œuvre cet algorithme en Python. En pratiquant cette activité, vous avez maintenant les bases pour explorer davantage les concepts de KNN et son application dans le domaine de l'apprentissage automatique.
-## License
+## By
 ```sh
                                                      __  __       _        _          _______             
                                                     |  \/  |     | |      (_)        |__   __|            
